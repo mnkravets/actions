@@ -41,3 +41,9 @@ jobs:
           who-to-greet: Maria
       - name: Log Greeting Time
         run: echo "${{ steps.greet.outputs.time}}"
+  test-curl-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call API
+        
+   
